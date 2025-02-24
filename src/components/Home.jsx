@@ -1,6 +1,10 @@
 
 
-function Home() {
+function Home(props) {
+
+  const {user} = props
+  console.log(user)
+
   return (
     <div>
       <h1>Home Page</h1>
