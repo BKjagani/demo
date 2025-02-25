@@ -12,6 +12,7 @@ function Contact() {
         <button onClick={() => {setBgcolor('aqua')}}>Aqua</button>
         <button onClick={() => {setBgcolor('yellow')}}>Yellow</button>
         <button onClick={() => {setBgcolor('tomato')}}>Tomato</button>
+        
         <div className="box" style={{backgroundColor : bgcolor}}></div>
     </div>
   )
